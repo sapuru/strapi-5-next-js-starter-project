@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: /
+    scripts:
+        build: yarn setup
+        deploy: npm install
+    subdomain: strapi-5-next-js-starter-project
+name: strapi-5-next-js-starter-project
+region: us-east-1
+yamlVersion: 2
